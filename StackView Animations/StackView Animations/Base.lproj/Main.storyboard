@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7UO-8n-PUH">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--StackView Animations-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StackView_Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hen-Xa-R2F">
+                                <rect key="frame" x="0.0" y="44" width="736" height="207"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zI0-Px-hgu">
+                                        <rect key="frame" x="0.0" y="0.0" width="184" height="207"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-swift_filled-1" translatesAutoresizingMaskIntoConstraints="NO" id="46s-S3-jxx">
+                                                <rect key="frame" x="40.333333333333336" y="51.999999999999993" width="103.66666666666666" height="103.33333333333331"/>
+                                                <color key="tintColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="46s-S3-jxx" secondAttribute="height" multiplier="1:1" id="1AH-Be-7Lm"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="46s-S3-jxx" firstAttribute="centerY" secondItem="zI0-Px-hgu" secondAttribute="centerY" id="7sI-ZX-ITG"/>
+                                            <constraint firstItem="46s-S3-jxx" firstAttribute="height" secondItem="zI0-Px-hgu" secondAttribute="height" multiplier="1:2" id="hRz-KN-47e"/>
+                                            <constraint firstItem="46s-S3-jxx" firstAttribute="centerX" secondItem="zI0-Px-hgu" secondAttribute="centerX" id="y5I-Aw-aGm"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G9G-gZ-Zgq">
+                                        <rect key="frame" x="184" y="0.0" width="184" height="207"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-ios_logo_filled-1" translatesAutoresizingMaskIntoConstraints="NO" id="Asc-Ec-X21">
+                                                <rect key="frame" x="39.666666666666657" y="51.000000000000007" width="104" height="103.66666666666669"/>
+                                                <color key="tintColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Asc-Ec-X21" secondAttribute="height" multiplier="1:1" id="KQF-Qy-hV7"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Asc-Ec-X21" firstAttribute="centerY" secondItem="G9G-gZ-Zgq" secondAttribute="centerY" id="Gdo-Ne-pZr"/>
+                                            <constraint firstItem="Asc-Ec-X21" firstAttribute="height" secondItem="G9G-gZ-Zgq" secondAttribute="height" multiplier="1:2" id="biZ-Hb-UMM"/>
+                                            <constraint firstItem="Asc-Ec-X21" firstAttribute="centerX" secondItem="G9G-gZ-Zgq" secondAttribute="centerX" id="lXt-xa-JCa"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vE0-2m-OXr">
+                                        <rect key="frame" x="368" y="0.0" width="184" height="207"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-apple_app_store_filled-1" translatesAutoresizingMaskIntoConstraints="NO" id="8VN-em-ZIA">
+                                                <rect key="frame" x="40.333333333333307" y="51.333333333333329" width="104.33333333333331" height="103.99999999999999"/>
+                                                <color key="tintColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="8VN-em-ZIA" secondAttribute="height" multiplier="1:1" id="QlQ-uC-d1X"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="8VN-em-ZIA" firstAttribute="centerX" secondItem="vE0-2m-OXr" secondAttribute="centerX" id="kbh-iT-PP3"/>
+                                            <constraint firstItem="8VN-em-ZIA" firstAttribute="height" secondItem="vE0-2m-OXr" secondAttribute="height" multiplier="0.5" id="owZ-Mq-PcX"/>
+                                            <constraint firstItem="8VN-em-ZIA" firstAttribute="centerY" secondItem="vE0-2m-OXr" secondAttribute="centerY" id="vPx-Xd-Tbt"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLf-Ud-OO8">
+                                        <rect key="frame" x="552" y="0.0" width="184" height="207"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-mac_client_filled-1" translatesAutoresizingMaskIntoConstraints="NO" id="uBC-bB-sGe">
+                                                <rect key="frame" x="40.333333333333378" y="52.333333333333336" width="103.66666666666669" height="103.33333333333331"/>
+                                                <color key="tintColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="uBC-bB-sGe" secondAttribute="height" multiplier="1:1" id="wq7-RN-1bf"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="uBC-bB-sGe" firstAttribute="centerX" secondItem="KLf-Ud-OO8" secondAttribute="centerX" id="8X5-l4-lXu"/>
+                                            <constraint firstItem="uBC-bB-sGe" firstAttribute="centerY" secondItem="KLf-Ud-OO8" secondAttribute="centerY" id="noo-bz-dR8"/>
+                                            <constraint firstItem="uBC-bB-sGe" firstAttribute="height" secondItem="KLf-Ud-OO8" secondAttribute="height" multiplier="1:2" id="p80-Uw-IDm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Nr5-Cu-HP2">
+                                <rect key="frame" x="30" y="344" width="283.33333333333331" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vT3-IN-c81">
+                                        <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="vT3-IN-c81" secondAttribute="height" multiplier="1:1" id="4gg-iH-wBt"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="icons8-settings_filled"/>
+                                        <connections>
+                                            <action selector="showSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aAu-IY-PUq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9u-Xp-hVn">
+                                        <rect key="frame" x="60.666666666666671" y="0.0" width="40.666666666666671" height="40"/>
+                                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="icons8-swift_filled-1"/>
+                                        <connections>
+                                            <action selector="showIconView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpJ-VJ-phO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zab-uX-wLU">
+                                        <rect key="frame" x="121.33333333333336" y="0.0" width="40.666666666666671" height="40"/>
+                                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="icons8-ios_logo_filled-1"/>
+                                        <connections>
+                                            <action selector="showIconView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9vR-yD-bCK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMu-lQ-bpN">
+                                        <rect key="frame" x="182" y="0.0" width="40.666666666666657" height="40"/>
+                                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="icons8-apple_app_store_filled-1"/>
+                                        <connections>
+                                            <action selector="showIconView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Pu-jZ-tyF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ijy-7Z-PVF">
+                                        <rect key="frame" x="242.66666666666666" y="0.0" width="40.666666666666657" height="40"/>
+                                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="icons8-mac_client_filled-1"/>
+                                        <connections>
+                                            <action selector="showIconView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4I7-PB-K3H"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Cxn-Xz-lwF"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hen-Xa-R2F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4bp-qT-jp4"/>
+                            <constraint firstItem="hen-Xa-R2F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ni0-9t-O6j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hen-Xa-R2F" secondAttribute="trailing" id="UBQ-Hl-I4b"/>
+                            <constraint firstItem="hen-Xa-R2F" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2" id="UvN-Zl-j4l"/>
+                            <constraint firstItem="Nr5-Cu-HP2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="kjd-ZM-qCl"/>
+                            <constraint firstAttribute="bottom" secondItem="Nr5-Cu-HP2" secondAttribute="bottom" constant="30" id="rhe-P8-15c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="StackView Animations" id="cKI-hF-ttU"/>
+                    <connections>
+                        <outlet property="iconStackView" destination="hen-Xa-R2F" id="xbZ-vY-Q2K"/>
+                        <outlet property="settingStackView" destination="Nr5-Cu-HP2" id="Acd-T6-zrD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="16X-dk-NZq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7UO-8n-PUH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Esu-1e-eeC">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Okl-Jc-0uH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DWT-Ee-iTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="183" y="122"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-apple_app_store_filled-1" width="100" height="100"/>
+        <image name="icons8-ios_logo_filled-1" width="100" height="100"/>
+        <image name="icons8-mac_client_filled-1" width="100" height="100"/>
+        <image name="icons8-settings_filled" width="100" height="100"/>
+        <image name="icons8-swift_filled-1" width="100" height="100"/>
+    </resources>
+</document>
